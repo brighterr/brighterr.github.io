@@ -17,10 +17,10 @@ body {
 
 /* 页头样式 */
 header {
-    background: #007bff;
+    background: #d44848;
     color: #fff;
     padding: 1rem 0;
-    border-bottom: 4px solid #0056b3;
+    border-bottom: 4px solid #d44848;
 }
 
 header h1 {
@@ -65,8 +65,8 @@ section {
 }
 
 h2 {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
+    color: #d44848;
+    border-bottom: 2px solid #d44848;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -89,7 +89,7 @@ article p {
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #007bff;
+    background: #d44848;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -131,7 +131,7 @@ form textarea {
 form button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #007bff;
+    background: #d44848;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -146,7 +146,7 @@ form button:hover {
 
 /* 页脚样式 */
 footer {
-    background: #007bff;
+    background: #d44848;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
