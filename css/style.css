@@ -1,3 +1,9 @@
+:root {
+    --background-color: #F9F2E0;
+    --primary-color: #1660AB;
+    --text-color: #333;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,8 +12,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: var(--background-color);
+    color: var(--primary-color);
     padding: 1rem;
     text-align: center;
 }
@@ -27,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: var(--background-color);
     text-decoration: none;
 }
 
@@ -36,8 +42,8 @@ main {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--background-color);
     text-align: center;
     padding: 1rem;
     position: fixed;
