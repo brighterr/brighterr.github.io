@@ -1,12 +1,17 @@
 /* 定义颜色变量 */
 :root {
-    --primary-color: #002fa7; /* 主色 */
-    --secondary-color: #81d8cf; /* 副色 */
-    --accent-color: #e74c3c; /* 强调色 */
+    --primary-color: #1660AB; /* 主色 */
+    --secondary-color: #F9F2E0; /* 副色 */
+    --accent-color: #707899; /* 强调色 */
     --background-color: #f4f4f4; /* 背景色 */
     --text-color: #333; /* 文字色 */
     --link-color: #3498db; /* 链接色 */
+    --link-hover-color: #2980b9; /* 链接悬停色 */
     --border-color: #ddd; /* 边框色 */
+    --card-background: #ffffff; /* 卡片背景色 */
+    --button-bg: #3498db; /* 按钮背景色 */
+    --button-hover-bg: #2980b9; /* 按钮悬停背景色 */
+    --input-border-color: #ddd; /* 输入框边框色 */
 }
 
 /* 通用样式 */
@@ -30,12 +35,12 @@ a {
 }
 
 a:hover {
-    color: var(--accent-color);
+    color: var(--link-hover-color);
 }
 
 /* 按钮样式 */
 button {
-    background-color: var(--primary-color);
+    background-color: var(--button-bg);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--button-hover-bg);
 }
 
 /* 背景色 */
@@ -84,7 +89,7 @@ th {
 
 /* 卡片样式 */
 .card {
-    background-color: white;
+    background-color: var(--card-background);
     border: 1px solid var(--border-color);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -96,7 +101,7 @@ th {
 input[type="text"],
 input[type="email"],
 textarea {
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--input-border-color);
     padding: 10px;
     border-radius: 5px;
     width: 100%;
@@ -104,7 +109,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: var(--primary-color);
+    background-color: var(--button-bg);
     color: white;
     border: none;
     padding: 10px;
@@ -114,5 +119,42 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--button-hover-bg);
+}
+
+/* 布局样式 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
 }
