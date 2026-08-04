@@ -14,7 +14,7 @@ redirect_from:
   <p class="eyebrow">AI for Research · Deep Research Evaluation</p>
   <h1 id="intro-title">Yuheng Zhang <span class="name-zh">张宇衡</span></h1>
   <p class="intro-lead">
-    I am an undergraduate student in Computer Science at <strong>Renmin University of China</strong>. My research focuses on building reliable evaluation and information-compression systems for research-oriented AI.
+    I am an undergraduate student in Computer Science at <strong>Renmin University of China</strong>. I have been fortunate to receive guidance from <a href="https://xiaojingzi.github.io" target="_blank" rel="noopener noreferrer">Jing Zhang (张静)</a> and <a href="https://zfjsail.github.io" target="_blank" rel="noopener noreferrer">Fanjin Zhang (张帆进)</a>. My research focuses on building reliable evaluation and information-compression systems for research-oriented AI.
   </p>
   <p>
     I previously interned with the Z-Lab / AMiner team at Z.ai, where I worked on reviewer-aligned evaluation for Deep Research systems. That experience strengthened my interest in models that can evaluate evidence, explain their judgments, and operate efficiently over long contexts.
