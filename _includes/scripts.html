@@ -1,4 +1,34 @@
 <script src="assets/js/main.min.js"></script>
 
 {% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}
+{% if site.author.googlescholar %}
+  {% include fetch_google_scholar_stats.html %}
+{% endif %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var navButton = document.querySelector("#site-nav button");
+    var hiddenLinks = document.querySelector("#site-nav .hidden-links");
+
+    if (!navButton || !hiddenLinks) return;
+
+    navButton.addEventListener("click", function () {
+      var isOpen = !hiddenLinks.classList.contains("hidden");
+      navButton.setAttribute("aria-expanded", String(isOpen));
+      navButton.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+    });
+
+    document.querySelectorAll("#site-nav a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        hiddenLinks.classList.add("hidden");
+        navButton.classList.remove("close");
+        navButton.setAttribute("aria-expanded", "false");
+        navButton.setAttribute("aria-label", "Open navigation");
+
+        if (link.hash && link.pathname === window.location.pathname) {
+          window.history.replaceState(null, "", link.hash);
+        }
+      });
+    });
+  });
+</script>

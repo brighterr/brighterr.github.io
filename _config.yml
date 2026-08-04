@@ -6,10 +6,12 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Yuheng Zhang | 张宇衡"
+description              : "Undergraduate researcher at Renmin University of China working on AI for Research, Deep Research evaluation, agents, and context compression."
+url                      : "https://brighterr.github.io"
+baseurl                  : ""
+repository               : "brighterr/brighterr.github.io"
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,14 +23,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  name             : "Yuheng Zhang"
+  avatar           : "images/yuheng-zhang.jpg"
+  bio              : "Undergraduate researcher in AI for Research"
   location         : "Beijing, China"
-  employer         :
+  employer         : "Renmin University of China"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    :
+  email            : "zhangyuheng@ruc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +39,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "brighterr"
   google_plus      :
   keybase          :
   instagram        :
@@ -77,9 +79,11 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -91,6 +95,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - run_server.sh
 keep_files:
   - .git
   - .svn
