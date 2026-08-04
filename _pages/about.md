@@ -17,7 +17,7 @@ redirect_from:
     I am an undergraduate student in Computer Science at <strong>Renmin University of China</strong>. My research focuses on building reliable evaluation and information-compression systems for research-oriented AI.
   </p>
   <p>
-    I am currently a research intern with the Z-Lab / AMiner team at Z.ai, where I work on reviewer-aligned evaluation for Deep Research systems. I care about models that can evaluate evidence, explain their judgments, and operate efficiently over long contexts.
+    I previously interned with the Z-Lab / AMiner team at Z.ai, where I worked on reviewer-aligned evaluation for Deep Research systems. That experience strengthened my interest in models that can evaluate evidence, explain their judgments, and operate efficiently over long contexts.
   </p>
   <div class="focus-list" aria-label="Research interests">
     <span>AI for Research</span>
@@ -31,12 +31,6 @@ redirect_from:
     <a href="https://surveyreview.github.io" target="_blank" rel="noopener noreferrer">SurveyReview ↗</a>
   </div>
 </section>
-
-<div class="proof-strip" aria-label="Selected research highlights">
-  <div><strong>KDD 2026</strong><span>first-listed author</span></div>
-  <div><strong>1,630</strong><span>authentic review reports</span></div>
-  <div><strong>1,600 → 16</strong><span>visual-token compression</span></div>
-</div>
 
 <section class="site-section" aria-labelledby="news-title">
   <div class="section-kicker">Updates</div>
@@ -99,11 +93,11 @@ redirect_from:
 </section>
 
 <section class="site-section" id="experience" aria-labelledby="experience-title">
-  <div class="section-kicker">Where I work</div>
+  <div class="section-kicker">Research experience</div>
   <h2 class="section-heading" id="experience-title">Experience</h2>
 
   <article class="timeline-entry">
-    <div class="timeline-date">2025.06 — Present</div>
+    <div class="timeline-date">2025.08 — 2026.07</div>
     <div>
       <h3>Z.ai · Z-Lab / AMiner Team</h3>
       <p class="timeline-role">Research Intern · Beijing, China</p>
